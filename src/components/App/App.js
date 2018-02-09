@@ -3,14 +3,7 @@ import logo from '../../images/logo.svg';
 import './App.css';
 
 export class App extends Component {
-  doStuff() {
-    let limit = 123;
-    for (let i = 0; i < limit; i++) {
-      console.log(i);
-    }
-  }
   render() {
-    this.doStuff();
     return (
       <div className="App">
         <header className="App-header">
