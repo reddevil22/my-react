@@ -6,6 +6,19 @@ h1, h2 {
   text-align: center;
 }
 
+#gh-card {
+    border: black;
+    border-style: dotted;
+    border-width: 3px;
+    padding-top: 10px;
+    width: 300px;
+    padding-bottom: 10px;
+}
+
+#cards {
+    padding-top: 10px;
+}
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
