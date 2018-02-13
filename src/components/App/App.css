@@ -12,7 +12,26 @@ h1, h2 {
     border-width: 3px;
     padding-top: 10px;
     width: 300px;
-    padding-bottom: 10px;
+    height: 300px;
+    margin: 20px;
+}
+
+#track {
+    height: 200px;
+    width: 800px;
+    border: black;
+    border-style: dotted;
+    border-width: 3px;
+    left: 403px;
+    top: 200px;
+    position: fixed;
+    margin: 20px;
+}
+
+#scoreboard {
+    border: black;
+    border-style: dotted;
+    height: 200px;
 }
 
 #cards {

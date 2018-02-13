@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import logo from '../../images/logo.svg';
 import './App.css';
-import { GithubCard } from "../githubCard/ghCard";
+import { Button } from 'semantic-ui-react';
+//import { GithubCard } from "../githubCard/ghCard";
 
 /* export class App extends Component {
   render() {
@@ -30,10 +31,21 @@ export class App extends Component {
                     <h2 className="App-sub-title">Kurtosys Grads</h2>
                 </header>
 
-                <div id="gh-card">
-                    <h2>Add Horses</h2>
-                    <GithubCard />
-                </div>
+                <body>
+                    <div id="gh-card">
+                        <h2>Horse participants</h2>
+                        {/* <GithubCard /> */}
+                        <Button></Button>
+                    </div>
+
+                    <div id="track">
+                        <h2>Race Track</h2>
+                    </div>
+
+                    <div id="scoreboard">
+                        <h2>Scoreboard</h2>
+                    </div>
+                </body>
             </div>
         )
     }
