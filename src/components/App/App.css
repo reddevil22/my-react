@@ -28,6 +28,35 @@ h1, h2 {
     margin: 20px;
 }
 
+#grass {
+    background-color: green;
+    height: 120px;
+    width: 780px;
+    margin: 10px;
+    
+}
+
+#line-1 {
+    height: 2px;
+    background: white;
+    position: relative;
+    top: 30px;
+}
+
+#line-2 {
+    height: 2px;
+    background: white;
+    position: relative;
+    top: 60px;
+}
+
+#line-3 {
+    height: 2px;
+    background: white;
+    position: relative;
+    top: 90px;
+}
+
 #scoreboard {
     border: black;
     border-style: dotted;
