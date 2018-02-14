@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import logo from '../../images/logo.svg';
 import './App.css';
 import { JockeyList } from "../JockeyList/jockeyList";
-//import { GithubCard } from "../githubCard/ghCard";
 
 export class App extends Component {
     render() {
