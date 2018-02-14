@@ -6,7 +6,7 @@ import axios from 'axios';
 const Card = (props) => {
     return (
         <div>
-            <img width="75" src={props.avatar_url} alt="avatar image"/>
+            <img width="50" src={props.avatar_url} alt="avatar image"/>
             <div>
                 <div>
                     {props.name}
