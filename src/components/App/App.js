@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from '../../images/logo.svg';
 import './App.css';
-//import { GithubCard } from "../githubCard/ghCard";
+import { GithubCard } from "../githubCard/ghCard";
 
 export class App extends Component {
     render() {
@@ -16,7 +16,7 @@ export class App extends Component {
                 <body>
                     <div id="gh-card">
                         <h2>Horse participants</h2>
-                        {/* <GithubCard /> */}
+                        <GithubCard />
                         <button type="submit">Add to Race</button>
                     </div>
 

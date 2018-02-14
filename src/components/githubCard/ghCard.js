@@ -1,7 +1,7 @@
 /* eslint-disable */
 import React from "react";
-import axios from 'axios';
-
+//import axios from 'axios';
+import data from '../../team.json';
 
 const Card = (props) => {
     return (
@@ -11,7 +11,6 @@ const Card = (props) => {
                 <div>
                     {props.name}
                 </div>
-                <div>{props.company}</div>
             </div>
         </div>
     );
@@ -25,7 +24,7 @@ const CardList = (props) => {
     );
 };
 
-class Form extends React.Component {
+/*class Form extends React.Component {
     state = {userName: ''}
     handleSubmit = (event) => {
         event.preventDefault();
@@ -38,6 +37,7 @@ class Form extends React.Component {
     };
 
     render() {
+        //console.log(data[0].login);
         return (
             <form onSubmit={this.handleSubmit}>
                 <input type="text"
@@ -48,7 +48,7 @@ class Form extends React.Component {
             </form>
         );
     }
-}
+}*/
 
 export class GithubCard extends React.Component {
     state = {
@@ -64,7 +64,7 @@ export class GithubCard extends React.Component {
     render() {
         return (
             <div>
-                <Form onSubmit={this.addNewCard} />
+                {/* <Form onSubmit={this.addNewCard} /> */}
                 <CardList cards={this.state.cards} />
             </div>
         )
