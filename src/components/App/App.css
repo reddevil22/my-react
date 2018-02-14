@@ -6,23 +6,23 @@ h1, h2 {
   text-align: center;
 }
 
-#gh-card {
+#horses {
     border: black;
     border-style: dotted;
     border-width: 3px;
     padding-top: 10px;
     width: 300px;
-    height: 300px;
+    height: 500px;
     margin: 20px;
 }
 
 #track {
-    height: 200px;
+    height: 300px;
     width: 800px;
     border: black;
     border-style: dotted;
     border-width: 3px;
-    left: 403px;
+    left: 530px;
     top: 200px;
     position: fixed;
     margin: 20px;
@@ -30,37 +30,40 @@ h1, h2 {
 
 #grass {
     background-color: green;
-    height: 120px;
+    height: 220px;
     width: 780px;
     margin: 10px;
-    
 }
 
 #line-1 {
     height: 2px;
     background: white;
     position: relative;
-    top: 30px;
+    top: 40px;
 }
 
 #line-2 {
     height: 2px;
     background: white;
     position: relative;
-    top: 60px;
+    top: 100px;
 }
 
 #line-3 {
     height: 2px;
     background: white;
     position: relative;
-    top: 90px;
+    top: 160px;
 }
 
 #scoreboard {
     border: black;
     border-style: dotted;
     height: 200px;
+    width: 600px;
+    left: 650px;
+    bottom: 220px;
+    position: relative;
 }
 
 #cards {

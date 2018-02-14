@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import logo from '../../images/logo.svg';
 import './App.css';
-import { Jockey } from "../Jockey/jockey";
-import data from '../../team.json';
+import { JockeyList } from "../JockeyList/jockeyList";
 //import { GithubCard } from "../githubCard/ghCard";
 
 export class App extends Component {
@@ -16,11 +15,9 @@ export class App extends Component {
                 </header>
 
                 <body>
-                    <div id="gh-card">
-                        <h2>Horse participants</h2>
-                        <Jockey
-                            avatar_url={data[0].avatar_url}
-                            handle={data[0].login}/>
+                    <div id="horses">
+                        <h2>Horses</h2>
+                        <JockeyList />
                         <button type="submit">Add to Race</button>
                     </div>
 
