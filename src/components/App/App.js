@@ -6,22 +6,7 @@ import './App.css';
 import { JockeyList } from "../JockeyList/jockeyList";
 
 export class App extends Component {
-    state = {
-        horses: []
-    };
-
-    value() {
-        return this.JockeyList.value();
-    }
-
-    onClick = () => {
-        this.setState(prevState => ({
-            horses: prevState.horses.concat(this.JockeyList)
-        }));
-    }
-
     render() {
-        console.log(this.state.horses);
         return (
             <div className="App">
                 <header className="App-header">
@@ -34,12 +19,6 @@ export class App extends Component {
                     <div id="horses">
                         <h2>Horses</h2>
                         <JockeyList />
-                        <button
-                            type="submit"
-                            onClick={this.onClick}
-                            >
-                                Add to Race
-                        </button>
                     </div>
 
                     <div id="track">
