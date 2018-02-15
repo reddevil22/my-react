@@ -13,6 +13,10 @@ import data from '../../team.json';
 
 export class JockeyList extends React.Component {
 
+    value() {
+        return ReactDOM.findDOMNode(this.Jockey.avatar_url).value;
+    }
+
     render() {
         const random = () => {
             return Math.floor(Math.random() * data.length);
