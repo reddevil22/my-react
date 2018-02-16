@@ -6,6 +6,10 @@ import './App.css';
 import { JockeyList } from "../JockeyList/jockeyList";
 
 export class App extends Component {
+    state = {
+        horses: []
+    }
+
     render() {
         return (
             <div className="App">
