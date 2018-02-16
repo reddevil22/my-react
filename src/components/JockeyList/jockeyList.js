@@ -3,6 +3,7 @@
 
 import React from "react";
 import { Jockey } from "../Jockey/jockey";
+import { RaceTrack } from '../RaceTrack/raceTrack';
 import data from '../../team.json';
 
 const random = () => {
@@ -20,6 +21,7 @@ export class JockeyList extends React.Component {
     }
     
     render() {
+        //console.log(this.state.horses);
         return (
             <div>
                 {this.state.horses.map((person) => {
@@ -30,6 +32,7 @@ export class JockeyList extends React.Component {
                         />
                     );
                 })}
+            <RaceTrack />
             </div>
         )
     }
