@@ -62,8 +62,8 @@ h1, h2 {
     height: 200px;
     width: 600px;
     left: 650px;
-    bottom: 220px;
-    position: relative;
+    bottom: 60px;
+    position: fixed;
 }
 
 #cards {
